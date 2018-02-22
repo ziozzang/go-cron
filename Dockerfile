@@ -1,4 +1,4 @@
-FROM golang:1.4.2
+FROM golang:alpine
 COPY . /go/src/go-cron
 WORKDIR /go/src/go-cron
 
