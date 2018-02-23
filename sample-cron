@@ -1,0 +1,8 @@
+# Once Per once 2 min
+0 */2 * * * python -c "print 'hello world! python!(Interval 2min)'"
+
+# Once Per Every 5 Sec
+*/5 * * * * python -c "print 'hello world! python!(Interval 5sec)'"
+
+# Force raise False return(non-zero)
+*/2 * * * * whoami && false
